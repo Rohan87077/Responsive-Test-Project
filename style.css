@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 10px;
+}
+main nav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main nav .icon {
+  display: flex;
+  gap: 5px;
+}
+main nav .text {
+  display: none;
+}
+main .section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  border-radius: 20px;
+  padding: 10px;
+  height: 20rem;
+  background-image: url(https://images.unsplash.com/photo-1509023464722-18d996393ca8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-color: rgba(59, 58, 58, 0.562);
+  align-items: center;
+}
+main .section1 .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 200;
+}
+main .section1 .text h1 {
+  margin-bottom: 5px;
+}
+main .section1 .text button {
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+main .section1 .text button:hover {
+  background-color: #89dae9;
+}
+main .section2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 10px;
+}
+main .section2 .text {
+  margin-top: 10px;
+}
+main .section2 .button button {
+  border-radius: 20px;
+  padding: 8px;
+  text-decoration: none;
+  margin-top: 5px;
+}
+main .section2 .text2 {
+  margin-top: 7px;
+}
+main .section2 .button button:hover {
+  background-color: #89dae9;
+}
+main .section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 15rem;
+  background-image: url(https://images.unsplash.com/photo-1604928141064-207cea6f571f?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  padding: 20px;
+}
+main .section3 .text1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  height: 15rem;
+  width: 70%;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
